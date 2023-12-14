@@ -1,7 +1,7 @@
 # DevProfile: Dynamic GitHub Bio Site
 
 ## Introduction
-Welcome to DevProfile! This project is my personal creation, an interactive bio page that dynamically retrieves and displays my GitHub profile information. Using Ajax and the GitHub API, it showcases my coding skills and projects in a unique, user-friendly format.
+Welcome to DevProfile! This project is my personal creation, an interactive bio page that dynamically retrieves and displays my GitHub profile information. Using Ajax and the GitHub API.
 
 ## Setting Up DevProfile
 Before diving in, ensure you have a basic understanding of the GitHub API and web development. There are no starter files, so you'll be crafting the HTML, CSS, and JavaScript from scratch.
