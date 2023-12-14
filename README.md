@@ -1,45 +1,35 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/dx7xrXf7)
-# GitHub Bio Site
+# DevProfile: Dynamic GitHub Bio Site
 
-## Directions
+## Introduction
+Welcome to DevProfile! This project is my personal creation, an interactive bio page that dynamically retrieves and displays my GitHub profile information. Using Ajax and the GitHub API, it showcases my coding skills and projects in a unique, user-friendly format.
 
-In today's project, you'll be asked to not only write code to make live Ajax requests, but also write some HTML and CSS to bring a mockup to life.
+## Setting Up DevProfile
+Before diving in, ensure you have a basic understanding of the GitHub API and web development. There are no starter files, so you'll be crafting the HTML, CSS, and JavaScript from scratch.
 
-Using the mockup below as a guide and using the GitHub API, retrieve data about yourself from the GitHub API to create a profile page that shows information and a list of your repos.
+### Starting Steps
+1. **Explore GitHub API**: Understand how to retrieve data by examining [GitHub API Documentation](https://docs.github.com/en/rest).
+2. **Create Files**: Set up your HTML, CSS, and JavaScript files. Link them together properly.
+3. **AJAX Calls**: Use Ajax to fetch data from `https://api.github.com/users/your-username-here`.
+4. **Testing**: Utilize tools like Insomnia to test your AJAX calls.
 
-All of the data about you, including your name and your GitHub username, should be retrieved from the GitHub API.
-
-Make sure to get your avatar url fromGitHub and use it as an avatar on the page. Your username and the names of your repos should be links that work.
-
-You do _not_ have to include the font icon for each repo, but if you want to, you can use the Font Awesome library. You can include it in your project by adding the link to the stylesheet in your the `<head>` tag in your HTML:
-
-```html
+### HTML & CSS
+- Begin with a basic HTML structure.
+- Style your page to your liking or as per the provided mockup.
+- Optionally, include Font Awesome for icons:
+  ```html
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-```
+  ```
 
-You are welcome to style this however you like and use any additional data you want to from the GitHub API. You don't have to reproduce this mockup exactly, but you should have all the same data included.
+## Features
+- **Dynamic Profile Info**: Retrieves your GitHub name, username, and avatar dynamically.
+- **Repository Listing**: Shows a list of your GitHub repositories.
+- **Interactive Links**: Your GitHub username and repo names are clickable links.
+- **Custom Styling**: Freedom to style your profile page as you desire.
 
-![mockup.png](mockup.png)
+## Development Journey
+This project is a testament to my skills in web development, API integration, and creative design. It goes beyond a static profile, offering a live insight into my coding world.
 
-## Hints
+## Conclusion
+DevProfile is more than just a project; it's a reflection of my journey as a developer. Dive in, explore the code, and see the fusion of API and front-end magic.
 
-Since there are no starter files provided, you'll need to create your own HTML, CSS, and JavaScript files and link them together properly. Before you start writing any JavaScript, we suggest you spend time examining the GitHub API docs listed below to get familiar with how you can obtain the data.
-
-The URL that will give you the initial data about your GitHub profile is:
-
-```http
-https://api.github.com/users/your-username-here
-```
-Note that
-
-In your HTML you will need a basic structure to add onto with the JS code. Once you have some HTML in place, begin setting up your AJAX calls and the callback functions to work with the data you retrieve. Don't forget to console.log the data to check what you're getting back.
-
-Insomnia will be helpful to test the AJAX calls as you get started.
-
-## Resources
-
-- [Mockup](mockup.png)
-- [GitHub User API](https://api.github.com/users/username) - change `username` in this url to your own username
-- [GitHub API Docs](https://docs.github.com/en/rest)
-- [Insomnia Download](https://insomnia.rest/download)
-- [Getting Started with Insomnia](https://support.insomnia.rest/article/11-getting-started)
+Enjoy exploring my GitHub journey through DevProfile!
